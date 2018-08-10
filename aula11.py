@@ -3,7 +3,7 @@ cores = {'limpa': '\033[m',
          'amarelo': '\033[33m',
          'fla': '\033[1;30;41m'}
 nome = 'Rafael'
-print('Oi {}.'.format(cores['fla'], nome, cores['limpa']))
+print('Oi {}.'.format(cores['fla'] + nome + cores['limpa']))
 
 print('\033[4;30;41mFlamengo\033[m')
 print('\033[4;33;44mFlamengo\033[m')
