@@ -34,3 +34,4 @@ while x != 0:
         else:
             impares += 1
 print('Você digitou {} pares e {} ímpares!'.format(pares, impares))
+
